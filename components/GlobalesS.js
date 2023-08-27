@@ -17,5 +17,10 @@ export const GlobalsS = StyleSheet.create({
     paddingHorizontal: 15,
     marginTop: 10,
     height: 50,
+    width: 250,
+    fontWeight: "bold",
+  },
+  textColor: {
+    color: Color.textColor,
   },
 });

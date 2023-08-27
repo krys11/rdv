@@ -13,10 +13,9 @@ const Login = () => {
           <View style={LoginS.writezone}>
             <View>
               <TextInput style={GlobalsS.textinput} placeholder="Email" />
-
               <TextInput style={GlobalsS.textinput} placeholder="Password" />
               <TouchableOpacity>
-                <Text>Fortgot Password</Text>
+                <Text style={GlobalsS.textColor}>Forgot Password</Text>
               </TouchableOpacity>
             </View>
             <View>
